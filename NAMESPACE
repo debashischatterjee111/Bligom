@@ -3,3 +3,5 @@
 export(CMATT)
 export(Test_avl)
 export(mcmccode_2D)
+export(mcmccode_2D_A)
+export(mcmccode_3D)
