@@ -1,0 +1,24 @@
+Package: Bligom
+Title: Bayesian Analysis of Landmark  based Geometric Morphometrics
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Debashis",
+           family = "Chatterjee",
+           role  = c("aut", "cre"),
+           email = "cdebashis010@gmail.com",
+           comment = c(ORCID = "https://orcid.org/0000-0002-0991-7574"))
+Description: Novel Bayesian Models &  Methods for  Landmark-based & Image-based Geometric Morphometrics.
+License: `use_mit_license()`, `use_gpl3_license()` 
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports:
+	available,
+	MASS,
+	coda,
+	rjags, 
+	rgl,shapes,
+	Morpho, geomorph, mvtnorm
+Depends: 
+    R (>= 2.10)
