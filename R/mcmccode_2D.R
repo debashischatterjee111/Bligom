@@ -24,10 +24,8 @@
 #'}
 #'
 
-
 mcmccode_2D=function(myData, choice, Nlandmark, tune,Nsample)
 {
-
   p=Nlandmark;
   M = myData[,,1]
   W=myData[,,choice]
